@@ -82,26 +82,6 @@ pip install -r requirements.txt
 python download_model.py
 ```
 
-## 📁 Struktur Proyek
-```
-sentimen-analysis-palestine-and-israel/
-│
-├── data/
-│   ├── raw/                 # Data mentah
-│   ├── processed/           # Data yang sudah diproses
-│   └── models/             # Model yang sudah di-training
-│
-├── src/
-│   ├── preprocessing/       # Script preprocessing data
-│   ├── models/             # Implementasi model LSTM
-│   ├── evaluation/         # Script evaluasi model
-│   └── utils/              # Utility functions
-│
-├── notebooks/              # Jupyter notebooks
-├── requirements.txt        # Dependencies
-└── README.md
-```
-
 ## 💻 Penggunaan
 
 ### Training Model
@@ -126,36 +106,6 @@ sentiment = analyzer.predict(text)
 print(f"Sentimen: {sentiment}")
 ```
 
-## 📈 Hasil dan Evaluasi
-
-### Metrik Performa
-- **Accuracy**: 85.3%
-- **Precision**: 84.7%
-- **Recall**: 85.1%
-- **F1-Score**: 84.9%
-
-### Confusion Matrix
-```
-                Predicted
-                Pos  Neg  Neu
-Actual    Pos   245   12    8
-          Neg    15  198   11  
-          Neu     9   14  187
-```
-
-## 🔧 Konfigurasi Model
-
-### Hyperparameters
-```python
-LSTM_UNITS = 128
-EMBEDDING_DIM = 100
-MAX_SEQUENCE_LENGTH = 100
-BATCH_SIZE = 32
-EPOCHS = 50
-LEARNING_RATE = 0.001
-DROPOUT_RATE = 0.2
-```
-
 ## 📚 Metodologi
 
 1. **Data Collection**: Pengumpulan teks dari berbagai sumber
@@ -171,14 +121,6 @@ DROPOUT_RATE = 0.2
 
 ## 🤝 Kontribusi
 Kontribusi sangat diterima! Silakan buat pull request atau buka issue untuk saran perbaikan.
-
-## 📄 Lisensi
-Proyek ini menggunakan lisensi MIT. Lihat file `LICENSE` untuk detail lebih lanjut.
-
-## 📞 Kontak
-- Email: your.email@example.com
-- LinkedIn: [Your LinkedIn Profile]
-- GitHub: [Your GitHub Profile]
 
 ## Terima Kasih
 Terima kasih kepada semua pihak yang telah berkontribusi dalam pengembangan proyek analisis sentimen ini. Semoga proyek ini dapat memberikan insight yang bermanfaat dalam memahami sentimen publik terkait isu Palestina dan Israel.
