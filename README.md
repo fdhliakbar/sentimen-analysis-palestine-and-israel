@@ -1,7 +1,8 @@
-# Analisis Sentimen Palestina dan Israel dengan LSTM
+# Analisis Sentimen Palestina dan Isr*** dengan LSTM
 
 <div align="center">
-    <img src="./palestine.jpeg" width="60%"/>
+    <!-- <img src="./palestina-israel.avif"/> -->
+    <img src="./hamas.jpg"/>
 </div>
 
 ## 📋 Deskripsi Proyek
