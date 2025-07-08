@@ -1,5 +1,9 @@
 # Analisis Sentimen Palestina dan Israel dengan LSTM
 
+<div align="center">
+    <img src="./palestine.jpeg" width="60%"/>
+</div>
+
 ## 📋 Deskripsi Proyek
 Proyek ini mengimplementasikan analisis sentimen terhadap teks yang berkaitan dengan konflik Palestina dan Israel menggunakan model Long Short-Term Memory (LSTM). Tujuan dari proyek ini adalah untuk mengklasifikasikan sentimen dari teks menjadi kategori positif, negatif, atau netral.
 
